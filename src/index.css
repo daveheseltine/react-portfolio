@@ -1,8 +1,7 @@
 :root {
-  --bg-navbar: rgb(33, 37, 41, 1);
-  --bg-wrapper: black;
-  --green: rgb(128, 255, 0);
   --clear: rgb(0, 0, 0, 0);
+  --primary: rgb(33, 37, 41, 1);
+  --secondary: orange;
 }
 
 /* Font Library: */
@@ -16,6 +15,13 @@
 }
 
 /* Class: */
+.bg-card-overlay {
+  background-color: var(--primary)
+}
+
+.bg-orange {
+  background-color: orange;
+}
 
 .color-grey {
   color: grey;
@@ -26,23 +32,23 @@
 }
 
 .interaction:hover {
-  color: var(--green);
+  color: var(--secondary);
   cursor: pointer
+}
+
+.navbar {
+  background: var(--primary)
 }
 
 .textbox {
   background-color: rgb(255, 255, 255, 0.6);
 }
 
-.navbar {
-  background: var(--bg-navbar)
-}
-
 /* ID: */
 #hero {
   background: linear-gradient(to bottom,
     var(--clear),
-    var(--bg-wrapper)
+    white
   ), url("./assets/img/hero.png");
   background-size: auto 100vw;
   background-position: top center;
@@ -50,5 +56,33 @@
 }
 
 #wrapper {
-  background: var(--bg-wrapper)
+  background: black;
+}
+
+#wrapper-hero {
+  background: white;
+}
+
+/* Classes: */
+.card > img {
+  border: 0;
+  border-top-left-radius: 2rem !important;
+  border-top-right-radius: 2rem !important;
+}
+
+.card, .card-body {
+  border: 0;
+  border-bottom-left-radius: 2rem !important;
+  border-bottom-right-radius: 2rem !important;
+}
+
+/* Buttons: */
+.btn {
+  box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.8) !important;
+  border: 0;
+  border-radius: 500px;
+}
+
+.btn-secondary:hover {
+  background-color: var(--secondary) !important;
 }

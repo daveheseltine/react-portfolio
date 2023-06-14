@@ -5,7 +5,7 @@ function Home () {
   
   return (
     // Wrapper (Contains: Main > Content, Footer):
-    <div id="wrapper">
+    <div id="wrapper-hero">
 
       {/* Main > Content: */}
       <div id="hero" className="d-flex flex-column justify-content-end" style={{minHeight: "100vh"}}>

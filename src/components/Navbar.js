@@ -34,10 +34,10 @@ function Navbar () {
 
             <li className="nav-item my-auto" >
               <NavLink 
-                to="/Work"
+                to="/Projects"
                 className={({isActive}) => isActive ? "nav-link active" : "nav-link"}
                 onClick={() => {setDropdown(false); window.scrollTo(0, 0)}}
-              >Work</NavLink>
+              >Projects</NavLink>
             </li>
 
             <li className="nav-item my-auto" >
