@@ -1,0 +1,17 @@
+:root {
+}
+
+/* Font Library: */
+@font-face {
+  font-family: OpenSans;
+  src: url("./assets/fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf");
+}
+
+* {
+  font-family: OpenSans;
+}
+
+/* Class: */
+
+
+/* ID: */
