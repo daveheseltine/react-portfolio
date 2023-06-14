@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import React, { useState } from "react";
 import Home from "./pages/Home.js"
 import Projects from "./pages/Projects.js"
 import Navbar from "./components/Navbar.js"
