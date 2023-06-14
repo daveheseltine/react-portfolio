@@ -7,7 +7,7 @@ function Footer () {
 
             {/* Email: */}
             <div className="col-xl-4 col-12 d-flex flex-column justify-content-center pb-3">
-              <a className="bi bi-envelope-fill color-white interaction" href="" alt="Email" style={{fontSize: "30px"}}> </a>
+              <a className="bi bi-envelope-fill color-white interaction" href="mailto:mec10dh@gmail.com" alt="Email" style={{fontSize: "30px"}}> </a>
               <p className="m-0">mec10dh@gmail.com</p>
             </div>
 
@@ -19,7 +19,7 @@ function Footer () {
 
             {/* Telephone: */}
             <div className="col-xl-4 col-12 d-flex flex-column justify-content-center pb-3">
-              <a className="bi-telephone-fill color-white interaction" href="" alt="Telephone" style={{fontSize: "30px"}}> </a>
+              <a className="bi-telephone-fill color-white interaction" href="tel:07804587623" alt="Telephone" style={{fontSize: "30px"}}> </a>
               <p className="m-0">0780 458 7623</p>
             </div>
 

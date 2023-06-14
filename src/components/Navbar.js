@@ -23,7 +23,7 @@ function Navbar () {
       <Modal show={modal.show} size="xl" onHide={() => setModal({show: false})} centered>
         <div className="d-flex flex-wrap justify-content-center p-1" fullscreen="true">
           <h1 className="col-12 pt-2 pb-1 display-6 text-center">David Heseltine CV</h1>
-          <img src={imgCV} width="100%"/>
+          <img src={imgCV} alt="Preview of CV" width="100%"/>
           <a className="interaction color-grey bi-arrow-down-square-fill shadow-none" alt="Download" style={{fontSize: "40px"}} href={"Downloads/David_Heseltine_CV"} download> </a>
         </div>
       </Modal>
@@ -34,7 +34,7 @@ function Navbar () {
             to=""
             onClick={() => {setDropdown(false); window.scrollTo(0, 0)}}
           >
-            <h1 className="my-auto">David Heseltine</h1>
+            <h1 className="brand my-auto">David Heseltine</h1>
           </Link>
 
           {/* Menu Icon: */}
@@ -64,7 +64,7 @@ function Navbar () {
               </li>
 
               <li className="nav-item my-auto ms-3 pt-0 pb-1" >
-                <a className="nav-link interaction" style={{fontSize: "22px"}} onClick={() => handleModal()}>CV</a>
+                <p className="nav-link m-0" onClick={() => handleModal()}>CV</p>
               </li>
 
               {/* Spacer: */}
