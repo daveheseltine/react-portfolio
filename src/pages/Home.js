@@ -8,18 +8,17 @@ function Home () {
     <div id="wrapper">
 
       {/* Main > Content: */}
-      <div id="main" className="d-flex flex-column" style={{minHeight: "100vh"}}>
-        <div id="spacer" style={{height: "100px"}}></div>
-        <div id="content" className="d-flex flex-wrap justify-content-center align-content-start">
+      <div id="hero" className="d-flex flex-column justify-content-end" style={{minHeight: "100vh"}}>
+        <div id="content" className="d-flex justify-content-center mb-5 p-5">
 
-          {/* Head: */}
-          <div className="col-12 py-4">
-            <h1 className="mb-2 text-center">Dave's React Template</h1>
-          </div>
-
-          {/* Body: */}
-          <div className="col-xl-9 col-12">
-            <p className="mb-2 text-center">What will we make this time?</p>
+          {/* Textbox: */}
+          <div className="col-xl-10 col-12 textbox px-4 pt-3">
+            <div className="px-3 mb-4">
+              <p>Highly creative front-end web developer with experience in APIs, Bootstrap, CSS3, HTML5, JavaScript, jQuery, Node.js and React.js with application via Git, GitHub and Netlify. Keen to implement React.js and Bootstrap wherever possible due to the quality of the content it can produce in limited timeframes.</p>
+              <p>Initially my goal was to become a Mechanical Engineer including programming, with future possibilities including developing software to model wind turbines, or utilising databases with modern manufacturing techniques to produce medical aids such as joint replacements and provide help to others.</p>
+              <p>I was previously a Mechanical Engineering student, holding 300 Credits at a 2:1 standard; however, I put my studies on hold until a later date as I realised that I was not in a position to incorporate the programming side of this ambition due to the course content not including enough programming. As such I decided to start a career involving programming.</p>
+              <p>This led me to complete the Skills Bootcamp in Front-End Web Development with Trilogy Skills, achieving a 100% grade in both individual and group projects, and due to enjoying it so much gaining a new ambition to become a Web Developer.</p>
+            </div>
           </div>
         </div>
       </div>

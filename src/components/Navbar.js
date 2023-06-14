@@ -6,9 +6,9 @@ function Navbar () {
   const [dropdown, setDropdown] = useState(false);
 
   return(
-    <nav className="navbar navbar-expand-md fixed-top navbar-dark p-0">
+    <nav className="navbar navbar-expand-md fixed-top navbar-dark py-0 px-5">
 
-      <div className="col-xl-9 col-12 container-fluid px-3" style={{minHeight: "85px"}} >
+      <div className="col-xl-10 col-12 container-fluid p-0" style={{minHeight: "100px"}} >
         <Link className="navbar-brand d-flex"
           to=""
           onClick={() => {setDropdown(false); window.scrollTo(0, 0)}}
@@ -16,8 +16,8 @@ function Navbar () {
           <h1 className="my-auto">David Heseltine</h1>
         </Link>
 
-        <i className="navbar-toggler p-0" alt="Menu" onClick={() => setDropdown(!dropdown)} style={{border: "none", minHeight: "85px"}}>
-          <div className="d-flex justify-content-center align-items-center" style={{minHeight: "85px", minWidth: "50px"}}>
+        <i className="navbar-toggler p-0" alt="Menu" onClick={() => setDropdown(!dropdown)} style={{border: "none", minHeight: "100px"}}>
+          <div className="d-flex justify-content-center align-items-center" style={{minHeight: "100px", minWidth: "50px"}}>
             <i className={`${dropdown ? "bi-eye-slash-fill" : "navbar-toggler-icon"}`} style={{fontSize: "30px"}}></i>
           </div>
         </i>
@@ -49,7 +49,7 @@ function Navbar () {
             </li>
 
             {/* Spacer: */}
-            <div className="mb-2"></div>
+            <div className="mb-3"></div>
           </ul>
         </div>
       </div>
