@@ -1,4 +1,6 @@
 :root {
+  --bg-navbar: rgb(33, 37, 41);
+  --bg-main: black;
 }
 
 /* Font Library: */
@@ -13,5 +15,38 @@
 
 /* Class: */
 
+.color-grey {
+  color: grey;
+}
+
+.color-white {
+  color: white;
+}
+
+.interaction:hover {
+  color: red;
+  cursor: pointer
+}
+
+.textbox {
+  background-color: rgb(255, 255, 255, 0.6);
+}
+
+.navbar {
+  background: linear-gradient(to right,
+    var(--bg-navbar),
+    var(--bg-navbar)
+  ), url("./assets/img/bg-navbar.jpg");
+  background-position: top center;
+}
 
 /* ID: */
+#wrapper {
+  background: black
+}
+
+#main {
+  background-size: auto 100vh;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
