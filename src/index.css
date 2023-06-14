@@ -31,9 +31,13 @@
   color: white;
 }
 
+.interaction, .interaction:hover {
+  text-decoration: none
+}
+
 .interaction:hover {
   color: var(--secondary);
-  cursor: pointer
+  cursor: pointer;
 }
 
 .navbar {
