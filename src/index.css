@@ -1,6 +1,8 @@
 :root {
-  --bg-navbar: rgb(33, 37, 41);
-  --bg-main: black;
+  --bg-navbar: rgb(33, 37, 41, 1);
+  --bg-wrapper: black;
+  --green: rgb(128, 255, 0);
+  --clear: rgb(0, 0, 0, 0);
 }
 
 /* Font Library: */
@@ -24,7 +26,7 @@
 }
 
 .interaction:hover {
-  color: red;
+  color: var(--green);
   cursor: pointer
 }
 
@@ -33,20 +35,20 @@
 }
 
 .navbar {
-  background: linear-gradient(to right,
-    var(--bg-navbar),
-    var(--bg-navbar)
-  ), url("./assets/img/bg-navbar.jpg");
-  background-position: top center;
+  background: var(--bg-navbar)
 }
 
 /* ID: */
-#wrapper {
-  background: black
-}
-
-#main {
-  background-size: auto 100vh;
+#hero {
+  background: linear-gradient(to bottom,
+    var(--clear),
+    var(--bg-wrapper)
+  ), url("./assets/img/hero.png");
+  background-size: auto 100vw;
   background-position: top center;
   background-repeat: no-repeat;
+}
+
+#wrapper {
+  background: var(--bg-wrapper)
 }

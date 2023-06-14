@@ -12,15 +12,12 @@ function Work () {
         <div id="spacer" style={{height: "100px"}}></div>
         <div id="content" className="d-flex flex-wrap justify-content-center align-content-start">
 
-          {/* Head: */}
-          <div className="col-12 py-4">
-            <h1 className="mb-2 text-center">Dave's React Template</h1>
-          </div>
+          {/* Heading: */}
+          <h1 className="col-12 m-0 p-4 text-center">Work</h1>
 
-          {/* Body: */}
-          <div className="col-xl-9 col-12">
-            <p className="mb-2 text-center">What will we make this time?</p>
-          </div>
+
+
+
         </div>
       </div>
 
