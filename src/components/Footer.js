@@ -1,6 +1,6 @@
 function Footer () {
   return(
-    <div>
+    <div className="bg-black pt-1">
       <div className="d-flex justify-content-center bg-dark text-center">
         <div className="col-xl-10 col-12 px-4">
           <div className="d-flex flex-wrap justify-content-center pt-2" style={{color: "white"}}>

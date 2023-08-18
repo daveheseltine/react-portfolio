@@ -2,6 +2,7 @@
   --clear: rgb(0, 0, 0, 0);
   --primary: rgb(33, 37, 41, 1);
   --secondary: orange;
+  --navbar: rgb(20, 20, 20, 0.8);
 }
 
 /* Font Library: */
@@ -41,7 +42,7 @@
 }
 
 .navbar {
-  background: var(--primary)
+  background: var(--navbar)
 }
 
 .textbox {
@@ -54,7 +55,7 @@
     var(--clear),
     white
   ), url("./assets/img/hero.png");
-  background-size: auto 100vw;
+  background-size: auto 100vh;
   background-position: top center;
   background-repeat: no-repeat;
 }
