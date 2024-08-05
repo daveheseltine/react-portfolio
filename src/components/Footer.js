@@ -4,25 +4,23 @@ function Footer () {
       <div className="d-flex justify-content-center bg-dark text-center">
         <div className="col-xl-10 col-12 px-4">
           <div className="d-flex flex-wrap justify-content-center pt-2" style={{color: "white"}}>
-
-            {/* Email: */}
+            {/* Telephone: */}
             <div className="col-xl-4 col-12 d-flex flex-column justify-content-center pb-3">
-              <a className="bi bi-envelope-fill color-white interaction" href="mailto:mec10dh@gmail.com" alt="Email" style={{fontSize: "30px"}}> </a>
-              <p className="m-0">mec10dh@gmail.com</p>
+              <a className="bi-telephone-fill color-white interaction" href="tel:07804587623" alt="Telephone" style={{fontSize: "30px"}}> </a>
+              <p className="m-0">(+44)780 458 7623</p>
             </div>
 
             {/* GitHub: */}
             <div className="col-xl-4 col-12 d-flex flex-column justify-content-center pb-3">
               <a className="bi bi-github color-white interaction" href="https://github.com/daveheseltine/react-portfolio" alt="GitHub" style={{fontSize: "30px"}}> </a>
-              <p className="m-0">&copy; 2023 David Heseltine</p>
+              <p className="m-0">&copy; 2024 David Heseltine</p>
             </div>
 
-            {/* Telephone: */}
+            {/* Email: */}
             <div className="col-xl-4 col-12 d-flex flex-column justify-content-center pb-3">
-              <a className="bi-telephone-fill color-white interaction" href="tel:07804587623" alt="Telephone" style={{fontSize: "30px"}}> </a>
-              <p className="m-0">0780 458 7623</p>
+              <a className="bi bi-envelope-fill color-white interaction" href="mailto:mec10dh@gmail.com" alt="Email" style={{fontSize: "30px"}}> </a>
+              <p className="m-0">d.g.heseltine@gmail.com</p>
             </div>
-
           </div>
         </div>
       </div>
